@@ -1,47 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"><!-- Based on https://css-tricks.com/responsive-data-tables/-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Based on https://css-tricks.com/responsive-data-tables/-->
     <!-- By Chris Coyier On April 27, 2011 -->
-    <meta name="description" content="Campbells of Nelson, PA's overseas burials."><!-- 
+    <meta name="description" content=
+    "Campbells of Nelson, PA's overseas burials."><!-- 
+
                 BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P { font-family:"Arial"; font-size:x-small }           -->
     <link rel="stylesheet" type="text/css" href="sscemlist.css">
     <title>
       Campbells of Nelson, PA's Overseas Burials
     </title>
     <style>
+
       table { 
+
     width: 100%; 
+
     border-collapse: collapse; 
+
     }
+
     @media 
+
     only screen and (max-width: 760px),
+
     (min-device-width: 768px) and (max-device-width: 1024px)  {
 
+
+
         /* Force table to not be like tables anymore */
+
         table, thead, tbody, th, td, tr { 
+
                 display: block; 
+
         }
+
         tr { border: 1px solid #ccc; }
+
         
+
         td { 
+
                 /* Behave  like a "row" */
+
                 border: none;
+
                 border-bottom: 1px solid #eee; 
+
                 position: relative;
+
                 padding-left: 50%; 
+
         }
+
         
+
         td:before { 
+
                 /* Now like a table header */
+
                 position: absolute;
+
                 /* Top/left values mimic padding */
+
                 top: 6px;
+
                 left: 6px;
+
                 width: 45%; 
+
                 padding-right: 10px; 
+
                 white-space: nowrap;
+
         }
+
     </style>
   </head>
   <body style="color: black;">
@@ -50,19 +86,25 @@
     </h1>
     <h2>
       In Countries Other Than The US, Country Unknown, or Buried at Sea<br>
-      From Campbell-Lugg-Blackwell <a href="http://wc.rootsweb.ancestry.com/cgi-bin/igm.cgi?db=capane&amp;I11.x=27&amp;I11.y=7">Family Tree</a>
+      From Campbell-Lugg-Blackwell <a href=
+      "http://wc.rootsweb.ancestry.com/cgi-bin/igm.cgi?db=capane&amp;I11.x=27&amp;I11.y=7">
+      Family Tree</a>
     </h2>
     <h3>
-      Legend: D=Descendant; S=Spouse; I=Father-In-law or Mother-In-Law; A=Key ancestor; LNU=Last Name Unknown; FNU=First Name Unknown
+      Legend: D=Descendant; S=Spouse; I=Father-In-law or Mother-In-Law; A=Key
+      ancestor; LNU=Last Name Unknown; FNU=First Name Unknown
     </h3>
     <h3>
-      Copyright 2012, 2014, 2015, 2016, 2017, 2018 by William B. Thompson, Commercial Use Prohibited
+      Copyright 2012, 2014, 2015, 2016, 2017, 2018 by William B. Thompson,
+      Commercial Use Prohibited
     </h3>
     <h3>
       Overseas Burials
     </h3>
     <table frame="VOID" rules="NONE" cols="12" cellspacing="0" border="1">
+      <caption></caption>
       <!--<colgroup><col width="71"><col width="213"><col width="411"><col width="90">
+
       <col width="104"><col width="247"><col width="48"><col width="42"><col width="38">      <col width="35"><col width="48"><col width="45"></colgroup>-->
       <tbody>
         <tr>
@@ -1579,6 +1621,7 @@
       At Sea
     </h3>
     <table>
+      <caption></caption>
       <tbody>
         <tr>
           <td>
@@ -1869,10 +1912,12 @@
       </tbody>
     </table>
     <p>
-      Copyright © 2012, 2014, 2015, 2016, 2017, 2018 William B. Thompson. Commercial use prohibited.<br>
+      Copyright © 2012, 2014, 2015, 2016, 2017, 2018 William B. Thompson.
+      Commercial use prohibited.<br>
     </p>
     <div class="Navigation">
-      <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CemeteriesByState.html">Burials Index</a>
+      <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=
+      "CemeteriesByState.html">Burials Index</a>
     </div>
   </body>
 </html>
